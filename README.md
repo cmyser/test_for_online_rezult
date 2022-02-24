@@ -15,6 +15,8 @@ cd env/Scripts
 
 activate.bat
 
+pip install -r requirements.txt
+
 cd adm_parser_shop
 
 python manage.py makemigrations
